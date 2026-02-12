@@ -22,7 +22,7 @@ client = OpenAI(
     # api_key=os.environ.get("OPENROUTER_API_KEY"),
 )
 
-MODEL = "gpt-4o-mini"  # cheap and fast for learning
+MODEL = "gpt-4o-mini"  # cheap and fast for learning (~$0.15 per 1M tokens)
 
 # --- The System Prompt ---
 # This is where behavior shaping happens
